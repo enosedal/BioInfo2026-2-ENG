@@ -1,0 +1,44 @@
+---
+title: "Buenas Prácticas en Bioinformática"
+author: "enosedal"
+format: html
+---
+
+# Objective
+
+To demonstrate knowledge and ease of use with basic best bioinformatic practices through a reproducible toy script for simple FASTA file analysis.
+
+# Tools Used
+
+- Python
+- Git
+- GitHub
+- Quarto
+
+# Developed Script
+
+The fasta_stats.py script calculates:
+- Number of sequences
+- Total sequence length
+- Basic file validation
+
+# Defensive Programming
+
+The script includes:
+- Argument validation
+- Error handling
+- Clear feedback messages to prevent crashes
+
+# Execution Example
+
+```bash
+python scripts/fasta_stats.py example_data/example.fasta
+```
+
+# Reproducibility
+
+The project was organized using best practices to ensure tasks don't hinder collaborative work:
+- Modular file structure
+- Version control with Git and GitHub
+- Proper documentation via a clean README
+- Reproducible document generation with Quarto
