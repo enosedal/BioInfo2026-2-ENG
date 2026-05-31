@@ -20,15 +20,22 @@ required_packages <- c(
   "rpart"
 )
 
+# Set up a local user library directory within your home folder
+user_lib <- path.expand("~/R/x86_64-pc-linux-gnu-library/4.4")
+if(!dir.exists(user_lib)) {
+  dir.create(user_lib, recursive = TRUE, showWarnings = FALSE)
+}
+
+# Add your personal home library folder to R's active search paths
+.libPaths(c(user_lib, .libPaths()))
+
 for(pkg in required_packages){
-
-  if(!require(pkg, character.only = TRUE)){
-
+  if(!require(pkg, character.only = TRUE, lib.loc = .libPaths())){
+    cat(paste("Installing missing package:", pkg, "to personal library...\n"))
     install.packages(pkg,
+                     lib = user_lib,
                      repos = "https://cloud.r-project.org")
-
-    library(pkg,
-            character.only = TRUE)
+    library(pkg, character.only = TRUE, lib.loc = user_lib)
   }
 }
 
@@ -37,9 +44,7 @@ for(pkg in required_packages){
 # =========================================================
 
 if(!dir.exists("../figures")){
-
-  dir.create("../figures",
-             recursive = TRUE)
+  dir.create("../figures", recursive = TRUE)
 }
 
 # =========================================================
@@ -88,38 +93,22 @@ print(kruskal_results)
 
 cat("[3/6] Running Permutation Test...\n")
 
-observed_difference <-
-  mean(treated) -
-  mean(control)
-
-all_data <- c(
-  control,
-  treated
-)
-
-labels <- c(
-  rep("control", 5),
-  rep("treated", 5)
-)
+observed_difference <- mean(treated) - mean(control)
+all_data <- c(control, treated)
+labels <- c(rep("control", 5), rep("treated", 5))
 
 permuted_differences <- numeric(10000)
 
 set.seed(123)
 
 for(i in 1:10000){
-
   shuffled_labels <- sample(labels)
-
   permuted_differences[i] <-
     mean(all_data[shuffled_labels == "treated"]) -
     mean(all_data[shuffled_labels == "control"])
 }
 
-permutation_pvalue <-
-  mean(
-    abs(permuted_differences) >=
-      abs(observed_difference)
-  )
+permutation_pvalue <- mean(abs(permuted_differences) >= abs(observed_difference))
 
 cat("\nObserved Difference:\n")
 print(observed_difference)
@@ -130,7 +119,8 @@ print(permutation_pvalue)
 png(
   "../figures/permutation_test.png",
   width = 1200,
-  height = 900
+  height = 900,
+  type = "cairo"
 )
 
 hist(
@@ -141,7 +131,8 @@ hist(
 
 abline(
   v = observed_difference,
-  lwd = 3
+  lwd = 3,
+  col = "red"
 )
 
 dev.off()
@@ -152,26 +143,9 @@ dev.off()
 
 cat("[4/6] Running Correlation Analysis...\n")
 
-pearson_correlation <-
-  cor(
-    mtcars$wt,
-    mtcars$mpg,
-    method = "pearson"
-  )
-
-spearman_correlation <-
-  cor(
-    mtcars$wt,
-    mtcars$mpg,
-    method = "spearman"
-  )
-
-kendall_correlation <-
-  cor(
-    mtcars$wt,
-    mtcars$mpg,
-    method = "kendall"
-  )
+pearson_correlation <- cor(mtcars$wt, mtcars$mpg, method = "pearson")
+spearman_correlation <- cor(mtcars$wt, mtcars$mpg, method = "spearman")
+kendall_correlation <- cor(mtcars$wt, mtcars$mpg, method = "kendall")
 
 cat("\nPearson Correlation:\n")
 print(pearson_correlation)
@@ -185,7 +159,8 @@ print(kendall_correlation)
 png(
   "../figures/correlation_plot.png",
   width = 1200,
-  height = 900
+  height = 900,
+  type = "cairo"
 )
 
 plot(
@@ -197,9 +172,9 @@ plot(
 )
 
 abline(
-  lm(mpg ~ wt,
-     data = mtcars),
-  lwd = 3
+  lm(mpg ~ wt, data = mtcars),
+  lwd = 3,
+  col = "blue"
 )
 
 dev.off()
@@ -234,7 +209,8 @@ decision_tree_model <- rpart(
 png(
   "../figures/decision_tree.png",
   width = 1200,
-  height = 900
+  height = 900,
+  type = "cairo"
 )
 
 plot(
