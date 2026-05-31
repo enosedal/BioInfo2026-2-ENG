@@ -1,0 +1,9 @@
+==========================================
+Starting Bioinformatics Pipeline
+==========================================
+Current execution directory: /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_03_databases/scripts
+[0/7 Running R package installer...]
+
+All packages installed/verified.
+[1/7] Running biomaRt annotation...
+[2/7] Running ClinVar/GWAS retrieval...

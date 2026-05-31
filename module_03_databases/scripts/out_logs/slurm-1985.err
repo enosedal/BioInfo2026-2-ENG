@@ -1,0 +1,6 @@
+Connecting to Ensembl...
+Ensembl site unresponsive, trying www mirror
+Ensembl site unresponsive, trying asia mirror
+Ensembl unavailable. Falling back to cached data requirement.
+Error: Ensembl is unreachable and no cache exists. Run later or prebuild cache.
+Execution halted

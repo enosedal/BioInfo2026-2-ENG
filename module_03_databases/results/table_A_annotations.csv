@@ -1,0 +1,378 @@
+hgnc_symbol,ensembl_gene_id,chromosome_name,start_position,end_position,gene_biotype,description,go_id
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005524
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0007165
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0006468
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0004672
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0016740
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005829
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0046872
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0000166
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0004674
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0016301
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043066
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0036064
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005929
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0034451
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005515
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0010628
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005634
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005737
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005886
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0016020
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0008270
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0003824
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0098794
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0106310
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0042802
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005739
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0098793
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0000165
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0004708
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0033138
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0070374
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0097110
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0009887
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0005509
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0007173
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0004709
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0070371
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0016079
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0034446
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043149
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0072577
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0002318
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0008542
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0010764
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0030154
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0030878
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0033077
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0035019
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0042127
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043367
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043368
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043369
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043524
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0045580
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0046632
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0048538
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0048679
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0048680
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0050772
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0050852
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0051496
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0060291
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0060323
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0060324
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0071466
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:1900026
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:2000301
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:2000352
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0010828
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0071277
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0090150
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0099170
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0098978
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0043005
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0044297
+BRAF,ENSG00000157764,7,140719327,140924976,protein_coding,"B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]",GO:0004713
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0016020
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0006955
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0042129
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0005886
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0002376
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0002250
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0009897
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0005515
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0006974
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0043065
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0030889
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0048471
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0050853
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0050852
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0005794
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0098636
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0042130
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0045590
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],GO:0045334
+CTLA4,ENSG00000163599,2,203853888,203873965,protein_coding,cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505],
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0005576
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0005125
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0006955
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1904707
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0005615
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0001819
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0008083
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0007165
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0005515
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0043066
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045893
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0001818
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0030097
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0046983
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032720
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0010507
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0046427
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0050728
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045944
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032715
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0071222
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002237
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0008285
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0010468
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0034115
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0140105
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0042130
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0030183
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0042100
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1902895
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002719
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0034116
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0051384
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0042092
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1904706
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045191
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002439
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002639
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1900100
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002875
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0002904
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0030886
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0030889
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032689
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032695
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0035729
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0042742
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0042832
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045348
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0060670
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0005141
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0001938
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0009410
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0014823
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0014854
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0030595
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032496
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032687
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032692
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032701
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032717
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0032868
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0034465
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0043032
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0043524
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045019
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045347
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045787
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0045930
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0050807
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0051045
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0060302
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0071392
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0071650
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0072577
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0097421
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1903034
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1903377
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:1903672
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:2000352
+IL10,ENSG00000136634,1,206767602,206774541,protein_coding,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962],GO:0001817
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0016020
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0005524
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0005509
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007156
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0006468
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0004672
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0004713
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0016740
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0000166
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0016301
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0005886
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007399
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0005768
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0010008
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0030335
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0005515
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007155
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0045893
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0004714
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0030155
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0043410
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007158
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0051897
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0033619
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0030424
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0097021
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007165
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0038023
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0043235
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0035860
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007169
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:2001241
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007411
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0048265
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0010976
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0071300
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0007497
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0033630
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0061146
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0072300
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0160144
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0098797
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0000165
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0001657
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0001755
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0001838
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0010628
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0030182
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0035799
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0042551
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0045793
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0048484
+RET,ENSG00000165731,10,43077026,43130351,protein_coding,ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967],GO:0050770
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0003677
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006355
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0007165
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0003700
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005737
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010628
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005634
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005886
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0051726
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005829
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005654
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005515
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0000981
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0051240
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0030154
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045893
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042803
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006955
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042802
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0000978
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0043565
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006357
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006954
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0019901
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0043124
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0070102
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0007259
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0019221
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0050728
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0140297
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045648
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0000785
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0001817
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0043491
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0046983
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0019903
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006606
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0106015
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042593
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0007249
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0090575
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0050729
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0043434
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0031490
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0097009
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010507
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045944
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006952
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0033210
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0001228
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042127
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0007399
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0030335
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0043123
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0023019
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1900016
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005102
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032755
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032757
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032760
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1900017
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0140311
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0060259
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0050766
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0061629
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0000976
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0004879
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045747
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0060397
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032355
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032870
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0060396
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0072540
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1902895
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0000122
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0090594
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0060019
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010629
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032731
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0038155
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1905869
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0106222
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0001659
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0016310
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010575
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0007179
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0097696
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0038110
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005667
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032733
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:2000635
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042755
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0019953
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0030522
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0003723
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0035723
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0038113
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0044321
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0038154
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0140105
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0072538
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0090091
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006366
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0008283
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0008285
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0035019
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0040014
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0042789
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045820
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0060221
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0071345
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:2000737
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:2001223
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0031730
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0035259
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0035591
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0070878
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0140610
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0001666
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0001754
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0002931
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0006953
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0008284
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010467
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0010730
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0034097
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0044320
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045471
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0045766
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0046902
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0048708
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0050804
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0097398
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0099527
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1900037
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1902728
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:1905564
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:2001171
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0014069
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0098685
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0098978
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0005743
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],GO:0032991
+STAT3,ENSG00000168610,17,42313324,42388568,protein_coding,signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364],

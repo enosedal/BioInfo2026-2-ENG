@@ -1,0 +1,47 @@
+Error: package or namespace load failed for ‘biomaRt’ in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/RSQLite/libs/RSQLite.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/RSQLite/libs/RSQLite.so)
+Execution halted
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/Rcpp/libs/Rcpp.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/Rcpp/libs/Rcpp.so)
+Calls: get_associations ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: write_csv ... write_delim -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+Found 1 file(s)
+GSE33630_series_matrix.txt.gz
+Error in `cli_block()`:
+! `x` must not contain list or matrix columns:
+✖ invalid columns at index(s): 4 6 7
+Backtrace:
+    ▆
+ 1. └─readr::write_csv(pathways, "../results/table_E_pathways.csv")
+ 2.   └─readr::write_delim(...)
+ 3.     └─readr:::check_column_types(x)
+ 4.       └─readr:::cli_block(...)
+ 5.         └─rlang (local) type(msg, class = class)
+Execution halted
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: write_csv ... write_delim -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: read_csv -> loadNamespace -> library.dynam -> dyn.load
+Execution halted

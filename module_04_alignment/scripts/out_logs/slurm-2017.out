@@ -1,0 +1,6 @@
+==========================================
+Starting Module 04 Pipeline
+==========================================
+Current directory: /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_04_alignment
+[1/14] Extracting BAM header
+[main_samview] fail to read the header from "-".

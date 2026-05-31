@@ -1,0 +1,142 @@
+---
+title: "Alignment"
+author: "Efrén Nosedal González"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+In this report, we put out our workflow for processing, aligning, and evaluating quality metrics for raw -omics data from two ChIP-seq experiments. The first corresponds to an FNR transcription factor ChIP-seq in *Escherichia coli*, and the second tracks CEBPA binding in mouse liver (*Mus musculus*). Count em. 1 & 2.
+
+We then go on to implement initial quality control evals thru FastQC and extract comprehensive mapping stats using tools from SAMtools. This lays down the barebones technical infrastructure required for downstream peak-calling and biological interpretation.
+
+---
+
+# Data Quality Control (FastQC)
+
+Before performing alignments, we check the overall quality of the raw reads using FastQC. This checks per-base quality scores, GC content distribution, sequence duplication levels, and potential adapter contamination before feeding the data into our aligners.
+
+```{bash FastQC, eval=FALSE}
+# Create output directories for organization
+mkdir -p results/ecoli results/mouse
+
+# Run FastQC on E. coli single-end data
+fastqc data/alignment/SRX189773_FNR_ChIP.fastq -o results/ecoli
+
+# Run FastQC on Mouse paired-end data
+fastqc data/alignment/SRR8376646_CEBPA_musmusculus_1.fastq.gz -o results/mouse
+fastqc data/alignment/SRR8376646_CEBPA_musmusculus_2.fastq.gz -o results/mouse
+```
+
+### Why did we use FastQC?
+
+We used it because we need a quality control step to evaluate quality before alignment. Sorry for the redundancy. We can see per-base quality, sequence composition, duplication, GC-content distributions, and adapter contamination.
+
+### FastQC Results
+
+For the *E. coli* FNR ChIP-seq dataset, we haev warnings and failures for per-base sequence quality, per-tile sequence quality, sequence content, GC content, duplication levels, overrepresented sequences, and k-mer content. No adapter contamination though. This is nothing new in ChIP-seq experiments because reads we have a lot more read around regions that proteins bind to.
+
+For the *Mus Musculus* CEBPA ChIP-seq dataset, both read files showed high per-base quality scores and no evidence of adapter contamination. We did have many failures for sequence composition, GC content, overrepresented sequences, and k-mer content, One of the file did flag duplication levels. But again, we can blame this on enrichment-adjacent experiments.
+
+So, overall, the FastQC reports common flagged ChIP-seq bias but no major issues that would prevent us from doing downstream alignment and analysis.
+
+---
+
+# Alignment: *Escherichia coli* Genome
+
+For the FNR ChIP-seq experiment, reads were aligned against the reference genome K12 MG1655.
+
+```{bash Ecoli Alignment, eval=FALSE}
+# 1. Generate the BWA index for the E. coli reference genome
+bwa index data/alignment/Escherichia_coli_K12_MG1655.fasta
+
+# 2. Align single-end reads and stream directly to a sorted BAM file via pipes
+bwa mem data/alignment/Escherichia_coli_K12_MG1655.fasta \
+        data/alignment/SRX189773_FNR_ChIP.fastq \
+| samtools view -u - \
+| samtools sort -@ 4 -o results/ecoli/ecoli_sorted.bam
+
+# 3. Post-processing: Index the sorted BAM file
+samtools index results/ecoli/ecoli_sorted.bam
+
+# 4. Generate alignment statistical summaries
+samtools flagstat results/ecoli/ecoli_sorted.bam > results/ecoli/ecoli_flagstat.txt
+samtools stats results/ecoli/ecoli_sorted.bam > results/ecoli/ecoli_stats.txt
+```
+
+### Why were these parameters and tools selected?
+* **`bwa mem`**: BWA-MEM algorithm because it is *the* standard for aligning to a continuous reference genome. Small indels and sequencing errors? It eats em for breakfast.
+* **`samtools sort` & `index`**: We can read SAM files but they are inefficient files. Converting them BAM, sorting them by genomic coordinates, and making a `.bai` index is a must. So this allows us to use downstream visualization tools (like *IGV* (forshadowing)) and peak callers to perform rapid random access on specific parts.
+
+### Alignment Results (*E. coli*)
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Reads** | 3,603,544 |
+| **Mapped Reads** | 2,351,799 |
+| **Mapping Rate** | **65.26%** |
+| **Unmapped Reads** | 1,251,745 |
+| **Average Read Length** | 36 bases |
+| **Observed Error Rate** | 0.001997 |
+
+### Biological Interpretation
+The majority of the fragments map to the reference genome. A mapping rate of **65.26%**, nice.
+
+The unmapped fraction of ~34.74% is typical for single-end shorter reads (36 bp), where repetitive sequences, some adapter contamination flags seen in FastQC, or low complexity regions limit unique the aligner's options.
+
+---
+
+# Alignment: Mouse Genome (*Mus musculus*)
+
+For the CEBPA ChIP-seq experiment, we have paired-end sequencing reads, and then we mapped them to the pre-indexed `mm10` mouse genome assembly available in the cluster.
+
+```{bash Mouse Alignment, eval=FALSE}
+# 1. Align paired-end reads using BWA-MEM against the cluster pre-indexed assembly
+bwa mem /mnt/Archives/genome/mm10_bwa-0.7_index/mm10.fa \
+        data/alignment/SRR8376646_CEBPA_musmusculus_1.fastq.gz \
+        data/alignment/SRR8376646_CEBPA_musmusculus_2.fastq.gz > results/mouse/mouse.sam
+
+# 2. Post-processing: Convert to BAM, sort, and index
+samtools view -bS results/mouse/mouse.sam | samtools sort -o results/mouse/mouse_sorted.bam
+samtools index results/mouse/mouse_sorted.bam
+
+# 3. Generate alignment statistical summaries
+samtools flagstat results/mouse/mouse_sorted.bam > results/mouse/mouse_flagstat.txt
+samtools stats results/mouse/mouse_sorted.bam > results/mouse/mouse_stats.txt
+```
+
+### Why were these parameters and tools selected?
+* **Paired-End Mapping**: Passing both forward and reverse fastq files directly into `bwa mem` gives the algorithm leverage over insert size spatial data. Knowing the expected distance between paired reads helps mapping accuracy a lot between repetitive regions in complex genomes from mammals.
+* **Cluster Pre-Indexed References**: The pre-built reference located at `/mnt/Archives/genome/` saves us precious and *expensive* computational time and guarantees our alignments map to standard `mm10` coords without those pesky user indexing discrepancies.
+
+### Alignment Results (Mouse)
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Reads** | 53,280,064 |
+| **Mapped Reads** | 42,654,988 |
+| **Mapping Rate** | **80.06%** |
+| **Properly Paired Reads** | 40,299,012 |
+| **Properly Paired Rate** | **75.64%** |
+| **Unmapped Reads** | 10,625,076 |
+| **Average Read Length** | 36 bases |
+| **Observed Error Rate** | 0.008893 |
+
+### Biological Interpretation
+The mouse alignment pipeline is certainly better than the *E. coli* execution, with a *powerful* **80.06%** mapping eff. But much more significantly, **75.64%** of the entire dataset consists of reads that are *properly paired*. 
+
+So we know we have *excellent* library construction quality and consistency. The high mapping eff shows this is a robust and deep dataset, that we can be confident running downstream transcription factor peak-calling on.
+
+---
+
+# Conclusions
+
+This workflow successfully achieves raw processing, quality control checks, and genome indexing for two model systems. 1 & 2.
+
+* The **Mouse dataset** showed better mapping performance (**80.06%**) compared to **_E. coli_** (**65.26%**). The structural advantages of paired-end sequencing which help with mapping ambiguities, a lot more than shorter single-end reads. 
+* Best practices `samtools` conversion and indexing steps, ensure healthy BAM assets. We can NOW convert this into lightweight signal files (such as BigWig via `deepTools`) (foreshadowing 2).

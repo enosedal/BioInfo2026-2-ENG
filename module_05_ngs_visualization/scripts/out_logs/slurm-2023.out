@@ -1,0 +1,32 @@
+==========================================
+Starting NGS Visualization Pipeline
+==========================================
+[1/6] Running FastQC
+Skipping '/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/MT1_1.fastq' which didn't exist, or couldn't be read
+Skipping '/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/MT1_2.fastq' which didn't exist, or couldn't be read
+Skipping '/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/MT2_1.fastq' which didn't exist, or couldn't be read
+Skipping '/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/MT2_2.fastq' which didn't exist, or couldn't be read
+[2/6] Building HISAT2 index
+Settings:
+  Output files: "/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/results/alignment/PccAS_v3_hisat2.idx.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/PccAS_v3_genome.fa
+Error: could not open /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/PccAS_v3_genome.fa
+Total time for call to driver() for forward index: 00:00:00
+Error: Encountered internal HISAT2 exception (#1)
+Command: hisat2-build --wrapper basic-0 /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/data/PccAS_v3_genome.fa /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/results/alignment/PccAS_v3_hisat2.idx 

@@ -1,0 +1,70 @@
+==========================================
+Starting Bioinformatics Pipeline
+==========================================
+Current execution directory: /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_03_databases/scripts
+[0/7 Running R package installer...]
+
+All packages installed/verified.
+[1/7] Running biomaRt annotation...
+Error: package or namespace load failed for ‘biomaRt’ in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/RSQLite/libs/RSQLite.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/RSQLite/libs/RSQLite.so)
+Execution halted
+[2/7] Running ClinVar/GWAS retrieval...
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/Rcpp/libs/Rcpp.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/Rcpp/libs/Rcpp.so)
+Calls: get_associations ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[3/7] Running structural annotation...
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+No encoding supplied: defaulting to UTF-8.
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: write_csv ... write_delim -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[4/7] Running GEO expression analysis...
+Found 1 file(s)
+GSE33630_series_matrix.txt.gz
+[1] 54675   105
+[5/7] Running pathway enrichment...
+Error in `cli_block()`:
+! `x` must not contain list or matrix columns:
+✖ invalid columns at index(s): 4 6 7
+Backtrace:
+    ▆
+ 1. └─readr::write_csv(pathways, "../results/table_E_pathways.csv")
+ 2.   └─readr::write_delim(...)
+ 3.     └─readr:::check_column_types(x)
+ 4.       └─readr:::cli_block(...)
+ 5.         └─rlang (local) type(msg, class = class)
+Execution halted
+[6/7] Running STRING interactions...
+Response [https://string-db.org/api/tsv/network?identifiers=RET%0dBRAF%0dIL10%0dSTAT3%0dCTLA4&species=9606]
+  Date: 2026-05-29 11:00
+  Status: 200
+  Content-Type: text/tab-separated-values; charset=utf-8
+  Size: 895 B
+<ON DISK>  /tmp/RtmpdgtQny/file2a594e49cad97a.tsvError in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: write_csv ... write_delim -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[7/7] Building integrated summary...
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so':
+  /lib64/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /cm/shared/apps/r/4.4.1-studio/lib64/R/library/vroom/libs/vroom.so)
+Calls: read_csv -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+==========================================
+Pipeline completed successfully
+==========================================

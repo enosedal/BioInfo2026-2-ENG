@@ -1,0 +1,6 @@
+Gen,Variante (rsID),Consecuencia,Clasificación ACMG,Enfermedad asociada,GWAS p-valor
+RET,rs1800861,missense_variant,Pathogenic,Multiple endocrine neoplasia type 2,NA
+BRAF,rs113488022,missense_variant,Likely pathogenic,Papillary thyroid carcinoma,NA
+IL10,rs1800871,regulatory_variant,Benign/uncertain,Inflammatory regulation / autoimmune disease,NA
+STAT3,rs744166,missense_variant,Likely pathogenic,Immune signaling modulation,NA
+CTLA4,rs231775,missense_variant,Risk allele,Autoimmune thyroid disease susceptibility,NA

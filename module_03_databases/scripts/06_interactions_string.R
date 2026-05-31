@@ -1,41 +1,27 @@
 #!/usr/bin/env Rscript
 
-# =========================================================
-# 06_interactions_string.R
-# Automated STRING interaction retrieval
-# =========================================================
-
 suppressPackageStartupMessages({
-  library(STRINGdb)
-  library(dplyr)
+  library(httr)
   library(readr)
+  library(dplyr)
 })
 
 genes <- c("RET", "BRAF", "IL10", "STAT3", "CTLA4")
 
-string_db <- STRINGdb$new(
-  version = "12",
-  species = 9606,
-  score_threshold = 700
+query <- paste(genes, collapse = "%0d")
+
+url <- paste0(
+  "https://string-db.org/api/tsv/network?identifiers=",
+  query,
+  "&species=9606"
 )
 
-gene_df <- data.frame(
-  gene = genes
-)
+tmp <- tempfile(fileext = ".tsv")
 
-mapped <- string_db$map(
-  gene_df,
-  "gene",
-  removeUnmappedRows = TRUE
-)
+GET(url, write_disk(tmp, overwrite = TRUE))
 
-interactions <- string_db$get_interactions(
-  mapped$STRING_id
-)
+df <- read.delim(tmp)
+df <- df %>% filter(score > 0.7)
 
-write_csv(
-  interactions,
-  "../results/table_F_interactions.csv"
-)
-
-print(head(interactions))
+write_csv(df, "../results/table_F_interactions.csv")
+print(head(df))

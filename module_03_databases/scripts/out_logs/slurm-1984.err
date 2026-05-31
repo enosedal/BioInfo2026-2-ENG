@@ -1,0 +1,6 @@
+Ensembl site unresponsive, trying useast mirror
+Ensembl site unresponsive, trying asia mirror
+Error in .chooseEnsemblMirror(mirror = mirror, http_config = http_config) : 
+  Unable to query any Ensembl site
+Calls: useEnsembl -> .chooseEnsemblMirror
+Execution halted

@@ -1,0 +1,18 @@
+# alignment_module/.gitignore
+
+*.bam
+*.bai
+*.fastq
+*.fq
+*.bcf
+*.vcf
+*.sam
+
+data/raw/*
+!data/raw/.keep
+
+results/alignments/*
+results/bam_stats/*large*
+
+.Rhistory
+.RData

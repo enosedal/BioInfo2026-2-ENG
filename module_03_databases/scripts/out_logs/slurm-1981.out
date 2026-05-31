@@ -1,0 +1,38 @@
+==========================================
+Starting Bioinformatics Pipeline
+==========================================
+Current execution directory: /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_03_databases/scripts
+[0/7 Running R package installer...]
+
+All packages installed/verified.
+[1/7] Running biomaRt annotation...
+  hgnc_symbol ensembl_gene_id chromosome_name start_position end_position
+1        BRAF ENSG00000157764               7      140719327    140924976
+2        BRAF ENSG00000157764               7      140719327    140924976
+3        BRAF ENSG00000157764               7      140719327    140924976
+4        BRAF ENSG00000157764               7      140719327    140924976
+5        BRAF ENSG00000157764               7      140719327    140924976
+6        BRAF ENSG00000157764               7      140719327    140924976
+    gene_biotype
+1 protein_coding
+2 protein_coding
+3 protein_coding
+4 protein_coding
+5 protein_coding
+6 protein_coding
+                                                                       description
+1 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+2 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+3 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+4 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+5 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+6 B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]
+       go_id
+1 GO:0005524
+2 GO:0007165
+3 GO:0006468
+4 GO:0004672
+5 GO:0016740
+6 GO:0005829
+[2/7] Running ClinVar/GWAS retrieval...
+Fatal error: cannot open file '02_gwas_clinvar.R': No such file or directory

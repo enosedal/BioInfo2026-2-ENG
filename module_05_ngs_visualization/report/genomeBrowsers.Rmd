@@ -1,0 +1,99 @@
+---
+title: "Genome Browsers"
+author: "Efrén Nosedal González"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducción
+
+In this report we describe the process of processing, alignment and visualization of omic data from 2 different experiments: an RNA-seq of the malaria mouse pathogen *Plasmodium chabaudi* AS and a mouse liver ChIP-seq (*Mus musculus*). Furthermore, we discuss the fundamental concepts behind sequencing formats management (BAM, BCF, BigWig) as well as the biological interpretation throguh genomic browswers such as IGV and UCSC.
+
+---
+
+# IGV
+
+In order to visualize the RNA-seq data of *Plasmodium chabaudi* AS, we accessed the files located in the path `/mnt/data/bioinfo-estadistica-2/data/IGV`.
+
+1. **What is the annotation file and what is this format describing?**
+The annotation file typically ends with a `.gff`, `.gff3`, or `.gtf` extension (e.g., `PccAS_v3.gff`). It is also a tab-delimited text format that describes the structural coordinates of features. It maps out the exact chromosome positions for genes, exons, introns, and regions that are untranslated.
+
+2. **What is the browser displaying?**
+The browser displays a multi-track horizontal view of the genome. At the top, the chromosomal coordinate line. Below, the reference track with the DNA sequence (when zoomed in), while the annotation track represents genes as solid blocks (the exons) connected by thin, directional lines (the introns).
+
+3. **What happens if you zoom in or out?**
+* **Zooming out:** We see dense blocks, so we see large-scale chromosome features, gene density, and the overall context.
+* **Zooming in:** Separates the features apart to show finer features. Zooming in to the max shows exon-intron boundaries and raw reference genome nucleotide bases.
+
+---
+
+# Alineamiento Splicing-Aware con HISAT2
+
+The raw read of RNA-seq are in the FASTQ format. Since mature mRNA trascripts lack introns, we can't use standard genomic aligners like BWA. Darn, so we instead requre a splice-aware aligner (HISAT2) capable of recognizing splice-junctions.
+
+```{bash HISAT2 Alignment, eval=FALSE}
+# 1. Reference genome alignment of P. chabaudi
+hisat2-build data/IGV/PccAS_v3_genome.fa data/IGV/PccAS_v3_hisat2.idx
+
+# 2. MT1 sample reads alignment
+hisat2 --max-intronlen 10000 \
+  -x data/IGV/PccAS_v3_hisat2.idx \
+  -1 data/IGV/MT1_1.fastq \
+  -2 data/IGV/MT1_2.fastq \
+  -S results/plasmodium/MT1.sam
+
+# 3. Conversion, ordering and indexing for IGV.
+samtools view -bS results/plasmodium/MT1.sam | samtools sort -o results/plasmodium/MT1.sorted.bam
+samtools index results/plasmodium/MT1.sorted.bam
+```
+
+1. **Is the data in the correct format? What kind of data do you need?**
+The raw data starts as FASTQ, which has sequencing reads and their respective quality scores. Not the correct format for visualization. To load it into IGV, we converted it into an indexed Binary Alignment Map (BAM format, accompanied by a `.bai`file), which maps where those reads belong relative to the reference.
+
+2. **Why do we use HISAT2 instead of standard aligners?**
+Unlike DNA-seq, RNA-seq data comes from spliced mRNA. Normal aligners (like BWA) fails to map reads that cross an exon exon junction because they continuity. HISAT2 is a splice-aware aligner that searches for split read junctions using an a better indexing strategy.
+
+3. **Visualize loci: PCHAS_0505200 and PCHAS_1409500. What do you see? Can you export the figure?**
+* **Observations:** Loading the sorted BAM files for `MT1` and `MT2` reveals accumulated reads over specific areas. The alignments form clear "peaks" or blocks that align almost perfectly with the annotated exons, while leaving gaps over the introns. Comparing MT1 and MT2 shows patterns of differential gene expression. It seems MT2 has almost thrice the coverage as MT1 for certain regions.
+
+* **Exporting:** Yes, figures can be saved directly from the user interface via `File -> Save Image...` in PNG or SVG formats. File located in /figures.
+
+---
+
+# Mouse data (ChIP-seq)
+
+In contrast to the fragmented patterns we observe in the mRNA, the data of the ChIP-seq display patters of union along specific regions of genomic DNA. Nice.
+
+1. **Using IGV try to visualize the data for mouse ChIP-seq you generated. Can you point to an interesting loci?**
+Some cool loci can be found near the promoter regions of liver genes, such as **Alb** or **Apoe**. Here witness clean, sharp read enrichments appear, indicative of transcription factor binding or histone modifications, classic active liver tissue, am I right?.
+
+---
+
+# UCSC Genome Browser & BigWig
+
+In order to see the data remotely without crashing the bandwith of the browser with individual read from a MASSIVE BAM file, we transform the data into a continuous read depth density.
+
+```{bash deepTools, eval=FALSE}
+# BigWig file from ordered alignment
+bamCoverage -b results/mouse/mouse_sorted.bam -o results/mouse/mouse_coverage.bw
+```
+
+1. **What is BigWig?**
+A BigWig (`.bw`) file is a compressed, indexed, binary format used for displaying continuous graph data, like sequencing coverage depth. It strips away individual sequences, names, and qualities from the BAM file, leaving only numerical values per position. This helps with file size drastically and enables fast remote streaming.
+
+2. **How can you upload the data to UCSC Genome Browser?**
+To upload the coverage track to the UCSC Genome Browser we:
+1. Navigate to theUCSC Browser website and select the genome assembly mm10 in our case.
+2. Go to **My Data** then **Custom Tracks**.
+3. Click on **Choose File** and select the locally generated `mouse_coverage.bw` file.
+4. Click **Submit** to render the custom continuous signal track directly above the public reference assembly annotations.
+
+---
+
+# Conclusiones
+
+This workflow incorporates quality control, strategic alignment, depending on the library type (BWA for continuos genomic DNA fragments and HISAT2 for mRNA splice junctions) and visualization *optimization* (that rhymed). The dominion over indexed binary formats, such as BAM and BCF, as well as lightweight visualization formats like Bigwig, allows us to laydown the primordial technical infrastructure for any and all worthy bioinformatic analyses.

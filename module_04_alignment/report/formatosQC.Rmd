@@ -1,0 +1,219 @@
+---
+title: "Formatos QC"
+author: "Efrén Nosedal González"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducción
+
+Este reporte incluye las respuestas a las preguntas planteadas en el ejercicio *Formatos QC*, así como el código utilizado para obtener dichas respuestas.
+
+# BAM file
+
+```{bash BAM file, execute=false}
+samtools view -H NA20538.bam | grep '^@RG'
+samtools view -H NA20538.bam | grep '@SQ'
+samtools view -H NA20538.bam | grep '@PG'
+samtools view NA20538.bam | head -n 1
+```
+
+## Questions
+
+1. **What does RG stand for?**
+
+It stands for Read Group, and it serves as the identifier for a group of reads that come from the same sequencing run.
+
+Allows sequencing reads to be traced to their sequencing run, lane, or library, which is important for downstream quality control.
+
+2. **What is the lane ID?**
+
+Some of the lane IDs are ERR003612, ERR003761, and ERR003762.
+
+They correspond to individual read groups, or independent sequencing lanes used.
+
+3. **What is the sequencing platform?**
+
+The sequencing platform is Illumina.
+
+The sequencing platform describes the technology used to generate the reads and can influence alignment and downstream analysis strategies.
+
+4. **What version of the human assembly was used to perform the alignments?**
+
+The version of the human assembly used to perform the alignments was NCBI37.
+
+Using the correct reference assembly is critical because genomic coordinates depend entirely on the genome version used.
+
+5. **What programs were used to create this BAM file?**
+
+The programs used to create the BAM file were:
+
+- GATK IndelRealigner
+- GATK TableRecalibration
+- bwa
+
+These tools were used for alignment and post-processing steps to improve alignment accuracy and sequencing quality metrics.
+
+6. **What version of bwa was used to align the reads?**
+
+The version of bwa used to align the reads was 0.5.5.
+
+The aligner version is important for reproducibilit, since different versions can have slightly different results.
+
+7. **What is the name of the first read?**
+
+The name of the first read is ERR003814.1408899.
+
+Read identifiers label each sequencing read within the dataset.
+
+8. **What position does the alignment of the read start at?**
+
+The alignment starts at position 19999970.
+
+The coordinate tells us where the read aligns on the reference genome.
+
+9. **What is the mapping quality of the first read?**
+
+The mapping quality of the first read is 23.
+
+Mapping quality is our confidence that the read was aligned to the correct location.
+
+# BCF
+
+```{bash BCF}
+bcftools view 1kg.bcf -Ov -o 1kg.vcf
+
+bcftools query -l 1kg.bcf
+
+bcftools query \
+-r 20:24019472 \
+-s HG00107 \
+-f '[ %TGT]\n' \
+1kg.bcf
+
+bcftools view -i 'INFO/AC>10' 1kg.bcf | grep -v '^#' | wc -l
+
+bcftools query \
+-s HG00107 \
+-f '%CHROM\t%POS[\t%GT]\n' \
+1kg.bcf
+```
+
+## Questions
+
+1. **What is a bcf?**
+
+A BCF file is a Binary Call Format file. A binary version of a VCF file used to store variant information.
+
+BCF files have the same info as VCF files, in a convenient storage and speedy format.
+
+2. **Can you convert bcf to vcf using bcftools? How?**
+
+Yes. A BCF file can be converted into a VCF file by:
+
+```bash
+bcftools view 1kg.bcf -Ov -o 1kg.vcf
+```
+
+Which is now human readable variant data.
+
+3. **How many samples are in the BCF?**
+
+50 samples.
+
+We got this by:
+
+```bash
+bcftools query -l 1kg.bcf | wc -l
+```
+
+which counts the number of sample names stored.
+
+4. **What is the genotype of the sample HG00107 at the position 20:24019472?**
+
+The genotype of HG00107 at position 20:24019472 is A/T.
+
+This says that the individual is heterozygous here, carrying both the reference and alternate allele.
+
+5. **How many positions are there with more than 10 alternate alleles?**
+
+There are 4778 positions with more than 10 alternate alleles.
+
+We got this by filtering variants using the INFO/AC field and counting the matching records.
+
+6. **List all positions where HG00107 has a non-reference genotype and the read depth is bigger than 10.**
+
+The positions were obtained using:
+
+```bash
+bcftools query \
+-s HG00107 \
+-i 'GT!="0/0" && FORMAT/DP>10' \
+-f '%CHROM\t%POS\t[%GT]\t[%DP]\n' \
+1kg.bcf
+```
+
+Example positions identified:
+
+| Chromosome | Position | Genotype | Depth |
+|------------|----------|----------|--------|
+| 20 | 23951354 | 1/1 | 14 |
+| 20 | 23952699 | 1/1 | 12 |
+| 20 | 24003250 | 0/1 | 15 |
+| 20 | 24003946 | 0/1 | 13 |
+| 20 | 24005258 | 0/1 | 11 |
+| 20 | 24005259 | 0/1 | 11 |
+| 20 | 24010733 | 0/1 | 13 |
+| 20 | 24019472 | 0/1 | 16 |
+| 20 | 24021797 | 0/1 | 15 |
+| 20 | 24027895 | 1/1 | 13 |
+
+There are the positions where HG00107 differs from the reference genome and has a sequencing depth greater than 10, which affords us greater confidence in the genotype calls.
+
+# Stats
+
+```{bash SAMtools}
+samtools stats -F SECONDARY NA20538.bam > stats.txt
+
+grep "^SN" stats.txt | head -30
+
+grep "insert size" stats.txt
+```
+
+## Questions
+
+1. **What is the total number of reads?**
+
+The total number of reads is 347367.
+
+This value represents all reads present in the BAM file after excluding secondary and supplementary alignment.
+
+2. **What proportion of the reads were mapped?**
+
+323966 reads were mapped out of 347367.
+
+The proportion of mapped reads is:
+
+323966 / 347367 × 100 = 93.3%
+
+Therefore, approximately 93.3% of the reads were successfully mapped.
+
+A high mapping rate indicates that the majority of reads aligned correctly to the reference genome.
+
+3. **How many reads were mapped to a different chromosome?**
+
+The samtools stats indicate that 4055 read pairs were mapped to different chromosomes.
+
+This can indicate structural variation, chimeric reads, ambiguity in maping, or artifacts. It's a pretty important quality control step in alignment.
+
+4. **What is the insert size mean and standard deviation?**
+
+The insert size average is 190.3 base pairs.
+
+The insert size standard deviation is 136.4 base pairs.
+
+Insert size provides information about the average DNA fragment length in the library and the variability among them. I'm tired.

@@ -1,0 +1,441 @@
+==========================================
+Starting NGS Visualization Pipeline
+==========================================
+Current execution directory:
+/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_05_ngs_visualization/results
+[1/8] Running FastQC
+Started analysis of MT1_1.fastq
+Approx 5% complete for MT1_1.fastq
+Approx 10% complete for MT1_1.fastq
+Approx 15% complete for MT1_1.fastq
+Approx 20% complete for MT1_1.fastq
+Approx 25% complete for MT1_1.fastq
+Approx 30% complete for MT1_1.fastq
+Approx 35% complete for MT1_1.fastq
+Approx 40% complete for MT1_1.fastq
+Approx 45% complete for MT1_1.fastq
+Approx 50% complete for MT1_1.fastq
+Approx 55% complete for MT1_1.fastq
+Approx 60% complete for MT1_1.fastq
+Approx 65% complete for MT1_1.fastq
+Approx 70% complete for MT1_1.fastq
+Approx 75% complete for MT1_1.fastq
+Approx 80% complete for MT1_1.fastq
+Approx 85% complete for MT1_1.fastq
+Approx 90% complete for MT1_1.fastq
+Approx 95% complete for MT1_1.fastq
+Approx 100% complete for MT1_1.fastq
+Analysis complete for MT1_1.fastq
+Failed to process file MT1_1.fastq
+java.io.FileNotFoundException: /mnt/data/bioinfo-estadistica-2/data/IGV/MT1_1_fastqc.zip (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:80)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:155)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:110)
+	at java.lang.Thread.run(Thread.java:750)
+Started analysis of MT1_2.fastq
+Approx 5% complete for MT1_2.fastq
+Approx 10% complete for MT1_2.fastq
+Approx 15% complete for MT1_2.fastq
+Approx 20% complete for MT1_2.fastq
+Approx 25% complete for MT1_2.fastq
+Approx 30% complete for MT1_2.fastq
+Approx 35% complete for MT1_2.fastq
+Approx 40% complete for MT1_2.fastq
+Approx 45% complete for MT1_2.fastq
+Approx 50% complete for MT1_2.fastq
+Approx 55% complete for MT1_2.fastq
+Approx 60% complete for MT1_2.fastq
+Approx 65% complete for MT1_2.fastq
+Approx 70% complete for MT1_2.fastq
+Approx 75% complete for MT1_2.fastq
+Approx 80% complete for MT1_2.fastq
+Approx 85% complete for MT1_2.fastq
+Approx 90% complete for MT1_2.fastq
+Approx 95% complete for MT1_2.fastq
+Approx 100% complete for MT1_2.fastq
+Analysis complete for MT1_2.fastq
+Failed to process file MT1_2.fastq
+java.io.FileNotFoundException: /mnt/data/bioinfo-estadistica-2/data/IGV/MT1_2_fastqc.zip (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:80)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:155)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:110)
+	at java.lang.Thread.run(Thread.java:750)
+Started analysis of MT2_1.fastq
+Approx 5% complete for MT2_1.fastq
+Approx 10% complete for MT2_1.fastq
+Approx 15% complete for MT2_1.fastq
+Approx 20% complete for MT2_1.fastq
+Approx 25% complete for MT2_1.fastq
+Approx 30% complete for MT2_1.fastq
+Approx 35% complete for MT2_1.fastq
+Approx 40% complete for MT2_1.fastq
+Approx 45% complete for MT2_1.fastq
+Approx 50% complete for MT2_1.fastq
+Approx 55% complete for MT2_1.fastq
+Approx 60% complete for MT2_1.fastq
+Approx 65% complete for MT2_1.fastq
+Approx 70% complete for MT2_1.fastq
+Approx 75% complete for MT2_1.fastq
+Approx 80% complete for MT2_1.fastq
+Approx 85% complete for MT2_1.fastq
+Approx 90% complete for MT2_1.fastq
+Approx 95% complete for MT2_1.fastq
+Approx 100% complete for MT2_1.fastq
+Analysis complete for MT2_1.fastq
+Failed to process file MT2_1.fastq
+java.io.FileNotFoundException: /mnt/data/bioinfo-estadistica-2/data/IGV/MT2_1_fastqc.zip (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:80)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:155)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:110)
+	at java.lang.Thread.run(Thread.java:750)
+Started analysis of MT2_2.fastq
+Approx 5% complete for MT2_2.fastq
+Approx 10% complete for MT2_2.fastq
+Approx 15% complete for MT2_2.fastq
+Approx 20% complete for MT2_2.fastq
+Approx 25% complete for MT2_2.fastq
+Approx 30% complete for MT2_2.fastq
+Approx 35% complete for MT2_2.fastq
+Approx 40% complete for MT2_2.fastq
+Approx 45% complete for MT2_2.fastq
+Approx 50% complete for MT2_2.fastq
+Approx 55% complete for MT2_2.fastq
+Approx 60% complete for MT2_2.fastq
+Approx 65% complete for MT2_2.fastq
+Approx 70% complete for MT2_2.fastq
+Approx 75% complete for MT2_2.fastq
+Approx 80% complete for MT2_2.fastq
+Approx 85% complete for MT2_2.fastq
+Approx 90% complete for MT2_2.fastq
+Approx 95% complete for MT2_2.fastq
+Approx 100% complete for MT2_2.fastq
+Analysis complete for MT2_2.fastq
+Failed to process file MT2_2.fastq
+java.io.FileNotFoundException: /mnt/data/bioinfo-estadistica-2/data/IGV/MT2_2_fastqc.zip (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:80)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:155)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:110)
+	at java.lang.Thread.run(Thread.java:750)
+[2/8] Building HISAT2 index
+Settings:
+  Output files: "PccAS_v3_hisat2.idx.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /mnt/data/bioinfo-estadistica-2/data/IGV/PccAS_v3_genome.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 3550939 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 3550939 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 3.15639e+06 (target: 3550938)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 6
+  Reserving size (3550939) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 3215333 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 3215334 for bucket 1
+Getting block 2 of 6
+  Reserving size (3550939) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 2947685 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 2947686 for bucket 2
+Getting block 3 of 6
+  Reserving size (3550939) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 3343862 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 3343863 for bucket 3
+Getting block 4 of 6
+  Reserving size (3550939) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 3457034 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 3457035 for bucket 4
+Getting block 5 of 6
+  Reserving size (3550939) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 3410402 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 3410403 for bucket 5
+Getting block 6 of 6
+  Reserving size (3550939) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 2564019 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2564020 for bucket 6
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 7246038
+fchr[G]: 9491973
+fchr[T]: 11721992
+fchr[$]: 18938340
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 10507717 bytes to primary GFM file: PccAS_v3_hisat2.idx.1.ht2
+Wrote 4734592 bytes to secondary GFM file: PccAS_v3_hisat2.idx.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 8363425 bytes to primary GFM file: PccAS_v3_hisat2.idx.5.ht2
+Wrote 4819488 bytes to secondary GFM file: PccAS_v3_hisat2.idx.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HGFM constructor
+Headers:
+    len: 18938340
+    gbwtLen: 18938341
+    nodes: 18938341
+    sz: 4734585
+    gbwtSz: 4734586
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 1183647
+    offsSz: 4734588
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 98638
+    numLines: 98638
+    gbwtTotLen: 6312832
+    gbwtTotSz: 6312832
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:21
+[3/8] Aligning MT1
+1250000 reads; of these:
+  1250000 (100.00%) were paired; of these:
+    105654 (8.45%) aligned concordantly 0 times
+    329304 (26.34%) aligned concordantly exactly 1 time
+    815042 (65.20%) aligned concordantly >1 times
+    ----
+    105654 pairs aligned concordantly 0 times; of these:
+      1797 (1.70%) aligned discordantly 1 time
+    ----
+    103857 pairs aligned 0 times concordantly or discordantly; of these:
+      207714 mates make up the pairs; of these:
+        146078 (70.33%) aligned 0 times
+        19877 (9.57%) aligned exactly 1 time
+        41759 (20.10%) aligned >1 times
+94.16% overall alignment rate
+[4/8] Aligning MT2
+1250000 reads; of these:
+  1250000 (100.00%) were paired; of these:
+    139440 (11.16%) aligned concordantly 0 times
+    483493 (38.68%) aligned concordantly exactly 1 time
+    627067 (50.17%) aligned concordantly >1 times
+    ----
+    139440 pairs aligned concordantly 0 times; of these:
+      4967 (3.56%) aligned discordantly 1 time
+    ----
+    134473 pairs aligned 0 times concordantly or discordantly; of these:
+      268946 mates make up the pairs; of these:
+        207579 (77.18%) aligned 0 times
+        28834 (10.72%) aligned exactly 1 time
+        32533 (12.10%) aligned >1 times
+91.70% overall alignment rate
+[5/8] Converting SAM to BAM
+[6/8] Sorting BAM files
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+[7/8] Indexing BAM files
+[8/8] Generating BigWig tracks
+/cm/shared/apps/anaconda3/2025.06/envs/deeptools-2.5.3/lib/python3.9/site-packages/deeptools/config/__init__.py:63: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+bamFilesList: ['MT1.sorted.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+/cm/shared/apps/anaconda3/2025.06/envs/deeptools-2.5.3/lib/python3.9/site-packages/deeptools/config/__init__.py:63: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+bamFilesList: ['MT2.sorted.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+==========================================
+Pipeline completed successfully
+==========================================

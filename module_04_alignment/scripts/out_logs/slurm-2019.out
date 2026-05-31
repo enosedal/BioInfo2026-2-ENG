@@ -1,0 +1,12 @@
+==========================================
+Starting Module 04 Pipeline
+==========================================
+Current directory: /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_04_alignment
+[1/14] Extracting BAM header
+[2/14] Extracting first aligned read
+[3/14] BAM statistics
+[4/14] BCF sample list
+[5/14] Number of samples
+[6/14] HG00107 genotype at chr20:24019472
+[E::idx_find_and_load] Could not retrieve index file for '/mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_04_alignment/data/1kg.bcf'
+Failed to read from /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_04_alignment/data/1kg.bcf: could not load index

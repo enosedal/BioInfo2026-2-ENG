@@ -1,59 +1,72 @@
 #!/bin/bash
 
-# =========================================================
-# Slurm Resource Allocations
-# =========================================================
-#SBATCH --job-name=db_pipeline
-#SBATCH --output=slurm-%j.out
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=4G
-#SBATCH --time=02:00:00
-
-# =========================================================
-# Bioinformatics Database Exploration Pipeline
-# UNAM ENES Juriquilla
-# Efrén Nosedal González
-# =========================================================
+set -euo pipefail
 
 echo "=========================================="
-echo "Starting Bioinformatics Pipeline"
+echo "BIOINFO PIPELINE START"
 echo "=========================================="
 
-# 1. Environment initialization for cluster compute nodes
-module purge
-module load r
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$BASE_DIR"
 
-# 2. Use Slurm's native variable to find your project directory
-# Then jump straight into your scripts folder dynamically
-cd /mnt/data/bioinfo-estadistica-2/enosedal/BioInfo2026-2-ENG/module_03_databases/scripts
-echo "Current execution directory: $(pwd)"
+LOG="out_logs/pipeline_$(date +%F_%H-%M-%S).log"
+exec > >(tee -a "$LOG") 2>&1
 
-echo "[0/7 Running R package installer...]"
-Rscript install_packages.R
+echo "[INFO] Working directory: $BASE_DIR"
+echo "[INFO] Log file: $LOG"
+echo "[INFO] Start time: $(date)"
 
-echo "[1/7] Running biomaRt annotation..."
+# =========================================================
+# STEP 1 — Annotation
+# =========================================================
+echo ""
+echo "[1/7] Running annotation..."
 Rscript 01_annotation_biomart.R
 
-echo "[2/7] Running ClinVar/GWAS retrieval..."
+# =========================================================
+# STEP 2 — GWAS / ClinVar
+# =========================================================
+echo ""
+echo "[2/7] Running GWAS/ClinVar..."
 Rscript 02_clinvar_gwas.R
 
-echo "[3/7] Running structural annotation..."
+# =========================================================
+# STEP 3 — Structure
+# =========================================================
+echo ""
+echo "[3/7] Running structural analysis..."
 Rscript 03_structure_pdb.R
 
-echo "[4/7] Running GEO expression analysis..."
+# =========================================================
+# STEP 4 — Expression
+# =========================================================
+echo ""
+echo "[4/7] Running expression analysis..."
 Rscript 04_expression_geo.R
 
+# =========================================================
+# STEP 5 — Pathways
+# =========================================================
+echo ""
 echo "[5/7] Running pathway enrichment..."
 Rscript 05_pathways_enrichment.R
 
-echo "[6/7] Running STRING interactions..."
+# =========================================================
+# STEP 6 — Interactions
+# =========================================================
+echo ""
+echo "[6/7] Running interaction network..."
 Rscript 06_interactions_string.R
 
+# =========================================================
+# STEP 7 — Integration
+# =========================================================
+echo ""
 echo "[7/7] Building integrated summary..."
 Rscript 07_integrated_summary.R
 
+echo ""
 echo "=========================================="
-echo "Pipeline completed successfully"
+echo "PIPELINE COMPLETED SUCCESSFULLY"
 echo "=========================================="
+echo "End time: $(date)"
