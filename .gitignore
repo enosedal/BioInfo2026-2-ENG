@@ -1,34 +1,16 @@
-# Sequencing files
-*.fastq
-*.fq
-*.bam
-*.sam
-*.vcf
-*.gz
-*.zip
-*.tar.gz
-
-# R
 .Rhistory
 .RData
 .Rproj.user/
-
-# Python
 __pycache__/
 *.pyc
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Mac/Linux system files
 .DS_Store
 
-# Temporary files
-tmp/
-temp/
+# Ironclad Cluster Ghost File Blocks
+**/genomeBrowsers/boot/
+**/genomeBrowsers/cm/
+**/genomeBrowsers/afs/
+**/visualization/*
 
-# Logs
-*.log
-
-# Large outputs
-results/tmp/
+# Block massive biology results files
+*.bam
+*.zip
